@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator{
+    height: 60vh;
+    width: 45vh;
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+
+}
+
+h3{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 1px;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+    width: 400px;
+}
+
+.full-calculator{
+    position: relative;
+    top: 20px;
+    left: 25px;
+    align-items: center;
+    
+}
+
+.genrator{
+    height: 70px;
+    width: 80%;
+    background-color: black;
+    margin: 22px;
+    text-align:right;
+    font-size: 2rem;
+    color: white;
+}
+
+.input{
+    height: 50px;
+    width: 285px;
+    background-color: black;
+    text-align:right;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.AC{
+    
+    position: relative;
+    bottom: 50px;
+    margin: 10px;
+    display: flex;
+    
+    gap: 10px;
+}
+.btnAC {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: gray;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn1{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: gray;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn2{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: orange;
+    border: none;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.number{
+    position: relative;
+    bottom: 50px;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+
+.number2{
+    position: relative;
+    bottom: 50px;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+}
+
+.number3{
+    position: relative;
+    bottom: 50px;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+}
+
+.number4{
+    position: relative;
+    bottom: 50px;
+    gap: 10px;
+    display: flex;
+    margin: 10px;
+}
+
+.btn3{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: gray;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn1:active{
+    background-color: rgb(115, 97, 97);
+}
+
+.btn2:active{
+    background-color: rgb(225, 180, 97);
+}
+
+.btn3:active{
+    background-color:  rgb(115, 97, 97);
+}
+
+.btnAC:active{
+    background-color:  rgb(115, 97, 97);
+}
+
+.btnback{
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: gray;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btnback:active{
+    background-color:  rgb(115, 97, 97);
+}
